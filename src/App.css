@@ -69,3 +69,23 @@ body{
   text-decoration: none;
   outline-color: var(--primaryColor);
 }
+
+.second-link{
+  padding: 0.5rem 1rem;
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: var(--mainSpacing);
+  outline: 2px solid var(--primaryColor);
+  outline-offset: 4px;
+  border: none;
+  transition: var(--mainTransition);  
+}
+
+.second-link:hover{
+  background: var(--mainOrange);
+  color: var(--mainWhite);
+  text-decoration: none;
+  outline-color: var(--mainBlack);
+}
